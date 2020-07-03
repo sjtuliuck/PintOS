@@ -4,6 +4,10 @@
 #include "userprog/gdt.h"
 #include "threads/interrupt.h"
 #include "threads/thread.h"
+#include "userprog/pagedir.h"
+#include "../threads/vaddr.h"
+#include "syscall.h"
+#include "vm/page.h"
 
 /* Number of page faults processed. */
 static long long page_fault_cnt;
@@ -136,26 +140,40 @@ page_fault (struct intr_frame *f)
      (#PF)". */
   asm ("movl %%cr2, %0" : "=r" (fault_addr));
 
+//  print("pagefault at %d\n", falt_addr);
+  if (!syscall_translate_vaddr(fault_addr, false))
+    thread_exit_with_return_value(f, -1);
+
   /* Turn interrupts back on (they were only off so that we could
      be assured of reading CR2 before it changed). */
   intr_enable ();
 
   /* Count page faults. */
   page_fault_cnt++;
+  
 
   /* Determine cause. */
   not_present = (f->error_code & PF_P) == 0;
   write = (f->error_code & PF_W) != 0;
   user = (f->error_code & PF_U) != 0;
 
-  /* To implement virtual memory, delete the rest of the function
+#ifdef VM
+  if(not_present && page_page_fault_handler(fault_addr, write, user ? f->esp : thread_current()->esp)) {
+    return;
+  }
+  else {
+    thread_exit_with_return_value(f, -1);
+  }
+#endif
+
+    /* To implement virtual memory, delete the rest of the function
      body, and replace it with code that brings in the page to
      which fault_addr refers. */
-  printf ("Page fault at %p: %s error %s page in %s context.\n",
-          fault_addr,
-          not_present ? "not present" : "rights violation",
-          write ? "writing" : "reading",
-          user ? "user" : "kernel");
-  kill (f);
+	printf ("Page fault at %p: %s error %s page in %s context.\n",
+		  fault_addr,
+		  not_present ? "not present" : "rights violation",
+		  write ? "writing" : "reading",
+		  user ? "user" : "kernel");
+	kill (f);
 }
 

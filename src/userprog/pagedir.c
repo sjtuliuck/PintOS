@@ -2,9 +2,13 @@
 #include <stdbool.h>
 #include <stddef.h>
 #include <string.h>
+#include <threads/thread.h>
+#include <stdio.h>
+#include <vm/page.h>
 #include "threads/init.h"
 #include "threads/pte.h"
 #include "threads/palloc.h"
+
 
 static uint32_t *active_pd (void);
 static void invalidate_pagedir (uint32_t *);
@@ -33,14 +37,15 @@ pagedir_destroy (uint32_t *pd)
     return;
 
   ASSERT (pd != init_page_dir);
+
   for (pde = pd; pde < pd + pd_no (PHYS_BASE); pde++)
-    if (*pde & PTE_P) 
+    if (*pde & PTE_P)
       {
         uint32_t *pt = pde_get_pt (*pde);
         uint32_t *pte;
-        
+
         for (pte = pt; pte < pt + PGSIZE / sizeof *pte; pte++)
-          if (*pte & PTE_P) 
+          if (*pte & PTE_P)
             palloc_free_page (pte_get_page (*pte));
         palloc_free_page (pt);
       }
@@ -99,7 +104,8 @@ bool
 pagedir_set_page (uint32_t *pd, void *upage, void *kpage, bool writable)
 {
   uint32_t *pte;
-
+//  static cnt = 0;
+//  printf("--%d ,%x, %x\n", cnt++, upage, kpage);
   ASSERT (pg_ofs (upage) == 0);
   ASSERT (pg_ofs (kpage) == 0);
   ASSERT (is_user_vaddr (upage));
@@ -128,6 +134,7 @@ pagedir_get_page (uint32_t *pd, const void *uaddr)
   uint32_t *pte;
 
   ASSERT (is_user_vaddr (uaddr));
+  ASSERT (uaddr != NULL);
   
   pte = lookup_page (pd, uaddr, false);
   if (pte != NULL && (*pte & PTE_P) != 0)
@@ -261,3 +268,4 @@ invalidate_pagedir (uint32_t *pd)
       pagedir_activate (pd);
     } 
 }
+

@@ -8,4 +8,7 @@ int process_wait (tid_t);
 void process_exit (void);
 void process_activate (void);
 
+struct mmap_handler* syscall_get_mmap_handle(mapid_t mapid);
+bool delete_mmap_handle(struct mmap_handler *mh);
+
 #endif /* userprog/process.h */

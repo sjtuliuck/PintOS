@@ -12,12 +12,21 @@
 #include "threads/synch.h"
 #include "threads/vaddr.h"
 #include "threads/fixed_point.h"
+#include "filesys/filesys.h"
+#include "filesys/file.h"
 #ifdef USERPROG
 #include "userprog/process.h"
+#endif
+#ifdef VM
+#include "vm/page.h"
+#include "userprog/syscall.h"
 #endif
 
 /* Added */
 fixed_t load_avg;
+
+static struct list children;
+static struct list file_list;
 /* Added */
 
 /* Random value for struct thread's `magic' member.
@@ -97,12 +106,17 @@ thread_init (void)
   lock_init (&tid_lock);
   list_init (&ready_list);
   list_init (&all_list);
+  //
+  list_init(&children);
+  list_init(&file_list);
 
   /* Set up a thread structure for the running thread. */
   initial_thread = running_thread ();
   init_thread (initial_thread, "main", PRI_DEFAULT);
   initial_thread->status = THREAD_RUNNING;
   initial_thread->tid = allocate_tid ();
+
+  load_avg = FP_CONST(0);
 }
 
 /* Starts preemptive thread scheduling by enabling interrupts.
@@ -115,7 +129,7 @@ thread_start (void)
   sema_init (&idle_started, 0);
   thread_create ("idle", PRI_MIN, idle, &idle_started);
 
-  load_avg = FP_CONST(0);
+  // load_avg = FP_CONST(0);
 
   /* Start preemptive thread scheduling. */
   intr_enable ();
@@ -193,6 +207,20 @@ thread_create (const char *name, int priority,
   init_thread (t, name, priority);
   tid = t->tid = allocate_tid ();
 
+  /* userprog */
+  struct child_message *own = palloc_get_page(PAL_ZERO);
+  own->tid = tid;
+  own->tchild = t;
+  own->exited = false;
+  own->terminated = false;
+  own->load_failed = false;
+  own->return_value = 0;
+  own->sema_finished = &t->sema_finished;
+  own->sema_started = &t->sema_started;
+  list_push_back(&children, &own->allelem);
+  t->message_to_grandpa = own;
+  /* userprog */
+
   // 
   old_level = intr_disable();
 
@@ -210,6 +238,10 @@ thread_create (const char *name, int priority,
   sf = alloc_frame (t, sizeof *sf);
   sf->eip = switch_entry;
   sf->ebp = 0;
+
+#ifdef USERPROG
+  t->exec_file = NULL;
+#endif
 
   intr_set_level(old_level);
   t->ticks_blocked = 0;
@@ -304,6 +336,26 @@ thread_exit (void)
 
 #ifdef USERPROG
   process_exit ();
+
+  sema_up(&thread_current()->sema_finished);
+
+  struct thread* cur = thread_current();
+  if (!list_empty(&file_list)) {
+    struct list_elem* i;
+    for (i = list_begin(&file_list); i != list_end(&file_list); i = list_next(i)){
+      struct file_handle* hd;
+      hd = list_entry(i, struct file_handle, elem);
+      if (hd->owned_thread == cur){
+        syscall_file_close(hd->opened_file);
+        i = list_prev(i);
+        list_remove(&(hd->elem));
+        free(hd);
+      }
+    }
+  }
+  if(cur->exec_file != NULL){
+    syscall_file_close(cur->exec_file);
+  }
 #endif
 
   /* Remove thread from all threads list, set our status to dying,
@@ -507,8 +559,16 @@ init_thread (struct thread *t, const char *name, int priority)
 
   t->magic = THREAD_MAGIC;
 
-  list_insert_ordered(&all_list, &t->allelem, (list_less_func *) &thread_cmp_priority, NULL);
+  /* userprog */
+  t->return_value = 0;
 
+  t->grandpa_died = false;
+  list_init (&t->child_list);
+  sema_init (&t->sema_finished, 0);
+  sema_init (&t->sema_started, 0);
+  /* userprog */
+
+  list_insert_ordered(&all_list, &t->allelem, (list_less_func *) &thread_cmp_priority, NULL);
   // old_level = intr_disable ();
   // list_push_back (&all_list, &t->allelem);
   // intr_set_level (old_level);
@@ -730,5 +790,49 @@ void thread_mlfqs_update_load_avg_and_recent_cpu(void) {
       thread_mlfqs_update_priority(t);
     }
   }
-  
 }
+
+struct child_message *thread_get_child_message(tid_t tid) {
+  struct list_elem *e;
+  struct child_message *l;
+  for (e = list_rbegin(&children); e != list_rend(&children); e = list_prev(e)) {
+    l = list_entry(e, struct child_message, allelem);
+    if (l->tid == tid)
+      return l;
+  }
+  return NULL;
+}
+
+void thread_exit_with_return_value(struct intr_frame *f, int return_value) {
+  struct thread *cur = thread_current();
+  cur->return_value = return_value;
+  f->eax = (uint32_t)return_value;
+  thread_exit();
+}
+
+void thread_file_list_inster(struct file_handle* fh) {
+  list_push_back(&file_list, &(fh->elem));
+}
+
+struct file_handle* syscall_get_file_handle(int fd) {
+  struct thread* cur =  thread_current();
+  struct list_elem* i;
+  for (i = list_begin(&file_list); i != list_end(&file_list); i = list_next(i)) {
+    struct file_handle* t;
+    t = list_entry(i, struct file_handle, elem);
+    if (t->fd == fd){
+      if (t->owned_thread != cur)
+        return NULL;
+      else
+        return t;
+    }
+  }
+  return NULL;
+}
+
+#ifdef FILESYS
+/* Set main thread's current directory */
+void set_main_thread_dir() {
+  initial_thread->current_dir = dir_open_root();
+}
+#endif

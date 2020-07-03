@@ -6,6 +6,8 @@
 #include <stdint.h>
 #include "synch.h"
 #include "fixed_point.h"
+#include "filesys/off_t.h"
+#include "filesys/directory.h"
 
 /* States in a thread's life cycle. */
 enum thread_status
@@ -106,11 +108,6 @@ struct thread
     /* Shared between thread.c and synch.c. */
     struct list_elem elem;              /* List element. */
 
-#ifdef USERPROG
-    /* Owned by userprog/process.c. */
-    uint32_t *pagedir;                  /* Page directory. */
-#endif
-
     /* Owned by thread.c. */
     unsigned magic;                     /* Detects stack overflow. */
 
@@ -148,6 +145,19 @@ struct thread
    struct list mmap_file_list;
    mapid_t next_mapid;
 #endif
+#ifdef FILESYS
+    struct dir *current_dir;
+#endif
+};
+
+struct file_handle{
+    int fd;
+    struct file* opened_file;
+    struct thread* owned_thread;
+    struct list_elem elem;
+#ifdef FILESYS
+    struct dir* opened_dir;
+#endif
 };
 
 struct mmap_handler{
@@ -161,9 +171,8 @@ struct mmap_handler{
     bool is_segment; 
     bool is_static_data;
     int num_page_with_segment; 
+    off_t file_ofs;
 };
-
-struct child_message *thread_get_child_message(tid_t tid);
 
 /* If false (default), use round-robin scheduler.
    If true, use multi-level feedback queue scheduler.
@@ -211,6 +220,13 @@ void thread_update_priority(struct thread *);
 void thread_mlfqs_increase_recent_cpu_by_one(void);
 void thread_mlfqs_update_priority(struct thread *);
 void thread_mlfqs_update_load_avg_and_recent_cpu(void);
+struct child_message *thread_get_child_message(tid_t tid);
+// void thread_exit_with_return_value(struct intr_frame *f, int return_value);
+void thread_file_list_inster(struct file_handle* fh);
+struct file_handle* syscall_get_file_handle(int fd);
+#ifdef FILESYS
+void set_main_thread_dir();
+#endif
 /* Added */
 
 #endif /* threads/thread.h */

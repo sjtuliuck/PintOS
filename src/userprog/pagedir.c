@@ -4,7 +4,9 @@
 #include <string.h>
 #include <threads/thread.h>
 #include <stdio.h>
+#ifdef VM
 #include <vm/page.h>
+#endif
 #include "threads/init.h"
 #include "threads/pte.h"
 #include "threads/palloc.h"

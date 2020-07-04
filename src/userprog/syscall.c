@@ -298,7 +298,7 @@ syscall_read(struct intr_frame *f, int fd, const void* buffer, unsigned size){
   }
   else{
     struct file_handle* t = syscall_get_file_handle(fd);
-    if (t != NULL ){
+    if (t != NULL && !inode_isdir(file_get_inode(t->opened_file))){
       lock_acquire(&filesys_lock);
       f->eax=(uint32_t)file_read(t->opened_file, (void*)buffer, size);
       lock_release(&filesys_lock);
@@ -318,7 +318,7 @@ syscall_write(struct intr_frame *f, int fd, const void* buffer, unsigned size){
     putbuf(buffer, size);
   else{
     struct file_handle* t = syscall_get_file_handle(fd);
-    if (t != NULL ){
+    if (t != NULL && !inode_isdir(file_get_inode(t->opened_file))){
       lock_acquire(&filesys_lock);
       f->eax = (uint32_t)file_write(t->opened_file, (void*)buffer, size);
       lock_release(&filesys_lock);
@@ -344,7 +344,7 @@ syscall_seek(struct intr_frame *f, int fd, unsigned position){
 static void
 syscall_tell(struct intr_frame *f, int fd){
   struct file_handle* t = syscall_get_file_handle(fd);
-  if (t != NULL ){
+  if (t != NULL && !inode_isdir(file_get_inode(t->opened_file))){
     lock_acquire(&filesys_lock);
     f->eax = (uint32_t)file_tell(t->opened_file);
     lock_release(&filesys_lock);

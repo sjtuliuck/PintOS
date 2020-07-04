@@ -1,0 +1,271 @@
+Copying tests/userprog/create-bound to scratch partition...
+qemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/5qhBxTu24s.dsk -m 4 -net none -nographic -monitor null
+Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run create-bound
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Simulation terminated due to kernel panic.

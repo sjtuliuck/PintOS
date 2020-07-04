@@ -1,170 +1,241 @@
-Copying tests/userprog/args-multiple to scratch partition...
-qemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/J8IiwWCgMh.dsk -m 4 -net none -nographic -monitor null
+Copying tests/userprog/open-twice to scratch partition...
+Copying ../../tests/userprog/sample.txt to scratch partition...
+qemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/WNuNQLDgIS.dsk -m 4 -net none -nographic -monitor null
 Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
+Kernel command line: -q -f extract run open-twice
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run 'args-multiple some arguments for you!'
-Simulation terminated due to kernel panic.
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run open-twice
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading......Simulation terminated due to kernel panic.

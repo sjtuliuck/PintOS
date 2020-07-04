@@ -1,163 +1,167 @@
-Copying tests/userprog/args-none to scratch partition...
-qemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/5TjHSWdnxs.dsk -m 4 -net none -nographic -monitor null
+Copying tests/userprog/sc-boundary-2 to scratch partition...
+qemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/W_t4zjdk0q.dsk -m 4 -net none -nographic -monitor null
 Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run sc-boundary-2
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run sc-boundary-2
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Simulation terminated due to kernel panic.

@@ -1,163 +1,168 @@
-Copying tests/userprog/args-none to scratch partition...
-qemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/5TjHSWdnxs.dsk -m 4 -net none -nographic -monitor null
+Copying tests/userprog/args-many to scratch partition...
+qemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/WTYVjKn0MQ.dsk -m 4 -net none -nographic -monitor null
 Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Kernel command line: -q -f extract run args-none
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
-Call stack: 0xc0029305 0Simulation terminated due to kernel panic.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run 'args-many a b c d e f g h i j k l m n o p q r s t u v'
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading....Simulation terminated due to kernel panic.

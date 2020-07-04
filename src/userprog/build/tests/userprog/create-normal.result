@@ -1,0 +1,5 @@
+FAIL
+Kernel panic in run: PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305
+Translation of call stack:
+0xc0029305: debug_panic (.../../lib/kernel/debug.c:38)

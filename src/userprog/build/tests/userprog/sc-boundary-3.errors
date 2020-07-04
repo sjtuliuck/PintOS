@@ -1,1 +1,1 @@
-qemu-system-i386: terminating on signal 2 from pid 30901 (/usr/bin/perl)
+qemu-system-i386: terminating on signal 1 from pid 53425 ()

@@ -1,5 +1,5 @@
 Copying tests/userprog/args-dbl-space to scratch partition...
-qemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/HeSEQrWizd.dsk -m 4 -net none -nographic -monitor null
+qemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/EdIpic5y2i.dsk -m 4 -net none -nographic -monitor null
 Pintos hda1
 Loading.............
 Kernel command line: -q -f extract run 'args-dbl-space two  spaces!'
@@ -166,4 +166,14 @@ Kernel command line: -q -f extract run 'args-dbl-space two  spaces!'
 Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
 Call stack: 0xc0029305 0Pintos hda1
 Loading.............
-Simulation terminated due to kernel panic.
+Kernel command line: -q -f extract run 'args-dbl-space two  spaces!'
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run 'args-dbl-space two  spaces!'
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Pintos hda1
+Loading.............
+Kernel command line: -q -f extract run 'args-dbl-space two  spaces!'
+Kernel PANIC at ../../threads/vaddr.h:84 in vtop(): assertion `is_kernel_vaddr (vaddr)' failed.
+Call stack: 0xc0029305 0Simulation terminated due to kernel panic.
